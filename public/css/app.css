@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Ruda:wght@900&display=swap);* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.blue-bar {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  background-color: rgb(2, 130, 249);
+}
+
+.blue-bar .container {
+  display: flex;
+  justify-content: flex-end;
+  width: 80%;
+  margin: auto;
+}
+
+.blue-bar h3 {
+  padding-left: 40px;
+  color: white;
+}
+
+nav .container {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+nav .container ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  align-items: center;
+  font-family: "Ruda", sans-serif;
+}
+
+nav .container ul a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+}
+
+nav .container ul li img {
+  margin-right: 50px;
+}
+
+nav .container ul li input {
+  margin-left: 50px;
+  border: none;
+  border-bottom: 2px solid rgb(2, 130, 249);
+}
+
+.jumbo {
+  height: 400px;
+  width: 100%;
+  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+}
+
