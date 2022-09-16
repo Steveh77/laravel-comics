@@ -58,11 +58,13 @@ nav .container ul li input {
   height: 400px;
   width: 100%;
   background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-size: cover;
 }
 
 #series .container {
   position: relative;
   background-color: rgb(28, 28, 28);
+  padding-bottom: 20px;
 }
 
 #series .container h1 {
@@ -115,6 +117,36 @@ nav .container ul li input {
   margin: auto;
   text-transform: uppercase;
   padding: 15px;
+  font-size: 15px;
+}
+
+#merchandise {
+  display: flex;
+  align-items: center;
+  height: 180px;
+  background-color: rgb(2, 130, 249);
+}
+
+#merchandise .container {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#merchandise .container .merchandise-card {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+}
+
+#merchandise .container .merchandise-card img {
+  height: 55px;
+  padding-right: 10px;
+}
+
+#merchandise .container .merchandise-card h3 {
   font-size: 15px;
 }
 

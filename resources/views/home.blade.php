@@ -13,7 +13,30 @@
             @endforeach
         </div>
         <h3>Load more</h3>
-    
+    </div>
+</section>
+<section id="merchandise">
+    <div class="container">
+        <div class="merchandise-card">
+            <img src="{{asset('images/buy-comics-digital-comics.png')}}" alt="">
+            <h3>Digital comics</h3> 
+        </div>
+        <div class="merchandise-card">
+            <img src="{{asset('images/buy-comics-merchandise.png')}}" alt="">
+            <h3>Dc merchandise</h3>
+        </div>
+        <div class="merchandise-card">
+            <img src="{{asset('images/buy-comics-shop-locator.png')}}" alt="">
+            <h3>subscription</h3>
+        </div>
+        <div class="merchandise-card">
+            <img src="{{asset('images/buy-comics-subscriptions.png')}}" alt="">
+            <h3>comic shop locator</h3>
+        </div>
+        <div class="merchandise-card">
+            <img src="{{asset('images/buy-dc-power-visa.svg')}}" alt="">
+            <h3>dc power visa</h3>
+        </div>
     </div>
 </section>
 @endsection

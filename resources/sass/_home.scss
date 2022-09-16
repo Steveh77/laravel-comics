@@ -2,6 +2,7 @@
     .container{
         position: relative;
         background-color: $card-container-color;
+        padding-bottom: 20px;
         h1{
             background-color: $light-blue;
             background-color: rgb(2, 130, 249);
@@ -49,4 +50,30 @@
         }
     }
 
+}
+#merchandise{
+    display: flex;
+    align-items: center;
+    height: 180px;
+    background-color: $light-blue;
+    .container{
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        .merchandise-card{
+            display: flex;
+            align-items: center;
+            color: white;
+            text-transform: uppercase;
+            img{
+                height: 55px;
+                padding-right: 10px;
+            }
+            h3{
+                font-size: 15px;
+            }
+
+        }   
+    }
 }
