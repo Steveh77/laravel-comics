@@ -1,0 +1,39 @@
+#book-details{
+    .blue-bar2{
+        height: 120px;
+        background-color: $light-blue;
+        .book-image{
+            position: relative;
+            width: 65%;
+            margin: auto;
+            img{
+                position: absolute;
+                bottom: -90px;
+            }
+        }
+    }
+    .container{
+        width: 65%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 70px;
+        .description{
+            padding-right: 30px;
+            h3{
+                font-size: 30px;
+                color: $dark-blue;
+            }
+            p{
+                margin-top: 40px;
+                font-size: 18px;
+                line-height: 1.4;
+            }
+
+        }
+        .advertisement{
+            color: red;
+            
+        }
+    }
+}

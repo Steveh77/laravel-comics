@@ -1,2 +1,6 @@
 @extends('layout.main')
-<h1>Tv Section</h1>
+
+@section('main-content')    
+    <h1>Tv Section</h1>
+@endsection
+

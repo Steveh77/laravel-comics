@@ -40,7 +40,7 @@
     </header>
     <main>
         <div class="jumbo"></div>
-        @yield('home-content')
+        @yield('main-content')
     </main>
     <footer>
 

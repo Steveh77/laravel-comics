@@ -1,2 +1,4 @@
 @extends('layout.main')
-<h1>games Section</h1>
+@section('main-content')
+    <h1>games Section</h1>   
+@endsection

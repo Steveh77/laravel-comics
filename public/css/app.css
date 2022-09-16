@@ -150,3 +150,46 @@ nav .container ul li input {
   font-size: 15px;
 }
 
+#book-details .blue-bar2 {
+  height: 120px;
+  background-color: rgb(2, 130, 249);
+}
+
+#book-details .blue-bar2 .book-image {
+  position: relative;
+  width: 65%;
+  margin: auto;
+}
+
+#book-details .blue-bar2 .book-image img {
+  position: absolute;
+  bottom: -90px;
+}
+
+#book-details .container {
+  width: 65%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+
+#book-details .container .description {
+  padding-right: 30px;
+}
+
+#book-details .container .description h3 {
+  font-size: 30px;
+  color: rgb(0, 63, 94);
+}
+
+#book-details .container .description p {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+#book-details .container .advertisement {
+  color: red;
+}
+
