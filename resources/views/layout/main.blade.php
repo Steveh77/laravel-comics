@@ -21,17 +21,17 @@
         <nav>
             <div class="container">
                 <ul>
-                    <li><img src="{{asset('images/dc-logo.png')}}" alt=""></li>
-                    <li><a href="#">Characters</a></li>
-                    <li><a href="#">Comics</a></li>
-                    <li><a href="#">Movie</a></li>
-                    <li><a href="#">Tv</a></li>
-                    <li><a href="#">Games</a></li>
-                    <li><a href="#">Collectibles</a></li>
-                    <li><a href="#">Videos</a></li>
-                    <li><a href="#">Fans</a></li>
-                    <li><a href="#">News</a></li>
-                    <li><a href="#">Shop <i class="fa-solid fa-caret-down"></i></a></li>
+                    <li> <a href="{{route ('home')}}"><img src="{{asset('images/dc-logo.png')}}" alt=""></a></li>
+                    <li><a href="{{route('characters')}}">Characters</a></li>
+                    <li><a href="{{route('comics')}}">Comics</a></li>
+                    <li><a href="{{route('movie')}}">Movie</a></li>
+                    <li><a href="{{route('tv')}}">Tv</a></li>
+                    <li><a href="{{route('games')}}">Games</a></li>
+                    <li><a href="{{route('collectibles')}}">Collectibles</a></li>
+                    <li><a href="{{route('videos')}}">Videos</a></li>
+                    <li><a href="{{route('fans')}}">Fans</a></li>
+                    <li><a href="{{route('news')}}">News</a></li>
+                    <li><a href="{{route('shop')}}">Shop <i class="fa-solid fa-caret-down"></i></a></li>
                     <li><input type="text" name="search" id="" placeholder="Search"></li>
                 </ul>
                 
