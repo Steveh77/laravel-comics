@@ -78,9 +78,14 @@ Route::get('/shop', function () {
 
 
 // CARDS
-Route::get('/book', function () {
+Route::get('/book/{id}', function ($id) {
     $books = config('comics');
-    $book = $books[0];
+
+    if (!is_numeric($id) || $id < 0 || $id >= count($books)) {
+        abort(404);
+    }
+
+    $book = $books[$id];
 
     return view('book', compact('book'));
 })->name('book');
